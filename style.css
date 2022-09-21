@@ -40,14 +40,13 @@ header {
    }
    
    nav {
-    bottom: 80px;
     width: auto;
     position: relative;
     margin:  auto;
 }
 
    #nav ul {
-    
+    bottom: 30px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
