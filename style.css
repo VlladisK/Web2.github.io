@@ -7,7 +7,7 @@ body {
 header {
     color: #ffffff;
     height: 130px; 
-    margin-bottom: 50px; 
+    margin-bottom: 130px; 
     background-color: rgb(63, 0, 141);
     background-image: url(img/lofi.gif);
     background-position: top;
@@ -40,12 +40,14 @@ header {
    }
    
    nav {
+    bottom: 80px;
     width: auto;
     position: relative;
-    margin: 0 auto;
+    margin:  auto;
 }
 
    #nav ul {
+    
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -56,19 +58,24 @@ header {
 }
 
 #nav li {
+    
     float: left;
     list-style-type: none;
 }
 
 #nav li a {
+  
+    
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    
     text-decoration: none;
 }
 
 #nav li a:hover {
+    
     background-color: rgb(63, 0, 141);
 }
 
